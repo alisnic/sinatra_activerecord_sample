@@ -1,6 +1,6 @@
 Sample Sinatra App with ActiveRecord
 ---
-A naked sinatra app, which support ActiveRecord out of the box.
+A naked sinatra app, which supports ActiveRecord out of the box.
 
 ## Features
 
