@@ -14,5 +14,6 @@ A naked sinatra app, which supports ActiveRecord out of the box.
 1. clone the repository
 2. create migrations manually or generate using `rake db:create_migration NAME=create_foos`
 3. migrate (`rake db:migrate`)
+4. create models in app/models
 
 (For details, consult sinatra-activerecord gem)
