@@ -2,6 +2,8 @@ require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/reloader' if development?
 
+Dir[File.dirname(__FILE__) + '/models/*.rb'].each {|file| require file }
+
 class SinatraRecord < Sinatra::Base
   register Sinatra::ActiveRecordExtension
 
